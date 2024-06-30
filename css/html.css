@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.top{
+    background-color:rgb(58, 63, 81);
+    height: 80px;
+    width: 100%;
+    z-index:0;
+    position: fixed;
+}
+.top span{
+    font-size: 100px;
+}
+
+
+
+
+.left{
+    background-color:rgb(237, 241, 242);
+    /* background-color: aqua; */
+    height: 100vh;
+    width: 25%;
+    z-index:-1;
+    position: fixed;
+    /* overflow: auto; */
+}
+
+
+
+
+
+.content{
+    /* background-color:rgb(241, 243, 244); */
+    height: 5000px;
+    width: 50%;
+    float: right;
+}
+
+
+
+
+
+.right{
+    background-color:rgb(237, 241, 242);
+    height: 5000px;
+    width: 25%;
+    float: right;
+}
+.none{
+    height: 80px;
+    width: auto;
+    background-color: black;
+}
